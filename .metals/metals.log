@@ -1,0 +1,109 @@
+2023.08.22 01:08:59 INFO  Started: Metals version 1.0.0 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09' for client Visual Studio Code 1.81.0.
+Aug 22, 2023 1:08:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 22, 2023 1:08:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 22, 2023 1:08:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/metals (H2 2.1)
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 22, 2023 1:09:00 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
+2023.08.22 01:09:00 INFO  time: initialize in 0.85s
+2023.08.22 01:09:11 WARN  no build target for: /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/Q01.scala
+2023.08.22 01:09:17 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.22 01:09:20 INFO  time: code lens generation in 15s
+2023.08.22 01:09:20 INFO  Running List(/Users/ravija/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:09:20 INFO  time: code lens generation in 10s
+2023.08.22 01:09:20 INFO  time: code lens generation in 9.75s
+2023.08.22 01:09:20 INFO  Attempting to connect to the build server...
+2023.08.22 01:09:20 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:09:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.22 01:09:20 WARN  No build session currently active to reload.
+2023.08.22 01:09:21 INFO  BSP server: Starting compilation server
+2023.08.22 01:09:34 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.22 01:09:34 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.22 01:09:34 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.22 01:09:34 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.22 01:09:36 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.22 01:09:36 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.22 01:09:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.22 01:09:39 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.22 01:09:39 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:39 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:39 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:41 ERROR Timeout waiting for 'build/initialize' response
+2023.08.22 01:09:41 WARN  Retrying connection to the build server scala-cli
+2023.08.22 01:09:41 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:09:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.22 01:09:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.22 01:09:48 INFO  time: Connected to build server in 27s
+2023.08.22 01:09:48 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.22 01:09:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:09:54 INFO  time: Imported build in 6.31s
+2023.08.22 01:09:59 INFO  time: indexed workspace in 5.32s
+2023.08.22 01:14:14 INFO  Disconnecting from scala-cli session...
+2023.08.22 01:14:14 INFO  Shut down connection with build server.
+2023.08.22 01:14:14 INFO  Attempting to connect to the build server...
+2023.08.22 01:14:14 INFO  Failed to run request with params InverseSourcesResult
+2023.08.22 01:14:14 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:14:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.22 01:14:16 INFO  time: Connected to build server in 1.29s
+2023.08.22 01:14:16 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.22 01:14:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:14:16 INFO  time: compiled project_bd2c96d2de in 0.81s
+2023.08.22 01:14:20 INFO  time: indexed workspace in 4.3s
+2023.08.22 01:14:25 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:14:25 INFO  Refreshed build after change
+2023.08.22 01:14:25 INFO  time: compiled project_bd2c96d2de in 4ms
+2023.08.22 01:14:33 INFO  Disconnecting from scala-cli session...
+2023.08.22 01:14:33 INFO  Shut down connection with build server.
+2023.08.22 01:14:33 INFO  Failed to run request with params InverseSourcesResult
+2023.08.22 01:14:33 INFO  Attempting to connect to the build server...
+2023.08.22 01:14:33 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:14:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.22 01:14:35 INFO  time: Connected to build server in 1.75s
+2023.08.22 01:14:35 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.22 01:14:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:14:35 INFO  time: compiled project_bd2c96d2de in 0.49s
+2023.08.22 01:14:39 INFO  time: indexed workspace in 4.14s
+2023.08.22 01:14:45 INFO  Refreshed build after change
+2023.08.22 01:14:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:14:50 INFO  time: compiled project_bd2c96d2de in 3.8s
+2023.08.22 01:14:59 INFO  Disconnecting from scala-cli session...
+2023.08.22 01:14:59 INFO  Shut down connection with build server.
+2023.08.22 01:14:59 INFO  Failed to run request with params InverseSourcesResult
+2023.08.22 01:14:59 INFO  Attempting to connect to the build server...
+2023.08.22 01:14:59 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09)
+2023.08.22 01:14:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.22 01:14:59 INFO  time: Connected to build server in 0.94s
+2023.08.22 01:14:59 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.22 01:15:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:15:00 INFO  time: compiled project_bd2c96d2de in 0.49s
+2023.08.22 01:15:05 INFO  time: indexed workspace in 4.2s
+2023.08.22 01:15:15 INFO  Refreshed build after change
+2023.08.22 01:15:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:15:22 INFO  time: compiled project_bd2c96d2de in 2.63s
+2023.08.22 01:15:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.22 01:15:33 INFO  time: compiled project_bd2c96d2de in 3.72s
+2023.08.22 01:15:33 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/Q04.scala
+2023.08.22 01:15:59 WARN  Could not load snapshot text for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 09/Q04.scala
